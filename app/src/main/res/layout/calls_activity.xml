@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.praveen.design.CallsFragment">
+
+
+    <TableRow
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="15dp"
+            android:text="10:30-11:00"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/b"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Kreena"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/salman"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bonny"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="15dp"
+            android:text="10:30-11:00"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bonny"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Priyanka"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/salman"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/b"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="15dp"
+            android:text="10:30-11:00"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/salman"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Salma"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/b"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bonny"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="15dp"
+            android:text="10:30-11:00"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/b"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Kreena"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/salman"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bonny"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="15dp"
+            android:text="10:30-11:00"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bonny"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Priyanka"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/salman"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/b"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="15dp"
+            android:text="10:30-11:00"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/salman"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Salma"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/b"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bonny"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>

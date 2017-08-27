@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ting"
+            android:icon="@drawable/ting_ting"
+            android:title="Ting Ting"
+            />
+        <item
+            android:id="@+id/calls"
+            android:icon="@drawable/arrow"
+            android:title="Calls" />
+        <item
+            android:id="@+id/emails"
+            android:icon="@drawable/schedule_icon"
+            android:title="Emails" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_icon"
+            android:title="Account Setting" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout"/>
+    </group>
+</menu>

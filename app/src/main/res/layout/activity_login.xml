@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/sign_up_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/sign_up"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_pic_imv"
+        android:layout_marginTop="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/b"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/user_logo"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/email_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:hint="Enter Your UserName"
+            android:minWidth="250dp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/user_logo"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:hint="Enter Your Name"
+            android:minWidth="250dp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_call"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:hint="Enter Your Phone Number"
+            android:minWidth="250dp"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/user_logo"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:hint="Enter Your DOB"
+            android:minWidth="250dp"
+            android:inputType="date"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/lock_pw"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Address"
+            android:minWidth="250dp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/CAbtn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/create_account" />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fb_ibtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/fb_logo" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/google_ibtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/google_icon"
+            android:layout_marginLeft="20dp"
+             />
+
+    </LinearLayout>
+</LinearLayout>
